@@ -112,19 +112,19 @@ $(window).load(function(){
       });
     });
 
-// Skill set 
-$('.photoshopskill').ClassyLoader({
+// Skill set
+$('.laravelskill').ClassyLoader({
 	speed: 50,
 	diameter: 65,
 	fontSize: '20px',
 	fontFamily: 'Open Sans',
 	fontColor: 'rgba(255,255,255,1)',
 	lineColor: 'rgba(255,255,255,1)',
-	percentage: 80,
+	percentage: 95,
 	lineWidth: 15,
 	remainingLineColor: 'rgba(255,255,255,0.5)'
 });
-$('.laravelskill').ClassyLoader({
+$('.photoshopskill').ClassyLoader({
 	speed: 50,
 	diameter: 65,
 	fontSize: '20px',
@@ -142,7 +142,7 @@ $('.jqueryskill').ClassyLoader({
 	fontFamily: 'Open Sans',
 	fontColor: 'rgba(255,255,255,1)',
 	lineColor: 'rgba(255,255,255,1)',
-	percentage: 85,
+	percentage: 90,
 	lineWidth: 15,
 	remainingLineColor: 'rgba(255,255,255,0.5)'
 });
@@ -153,7 +153,7 @@ $('.htmlcssskill').ClassyLoader({
 	fontFamily: 'Open Sans',
 	fontColor: 'rgba(255,255,255,1)',
 	lineColor: 'rgba(255,255,255,1)',
-	percentage: 95,
+	percentage: 85,
 	lineWidth: 15,
 	remainingLineColor: 'rgba(255,255,255,0.5)'
 });
