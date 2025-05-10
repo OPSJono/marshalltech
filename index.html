@@ -359,33 +359,17 @@
 <script type="text/javascript" src="js/jquery.placeholder.js"></script>
 
 <!--for header jquery-->
-<script type="text/javascript" src="js/stickUp.js"></script>
 <script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" src="js/jquery.cslider.js"></script>
 <script type="text/javascript">
 jQuery(function($) {
 $(document).ready( function() {
-  //enabling stickUp on the '.navbar-wrapper' class
-	$('.navbar-wrapper').stickUp({
-		parts: {
-		  0: 'banner',
-		  1: 'aboutus',
-		  2: 'ourwork',
-		  3: 'experience',
-		  4: 'contact'
-		},
-		itemClass: 'menuItem',
-		itemHover: 'active',
-		topMargin: 'auto'
-		});
-	});
-
-	$('#da-slider').cslider({
-		autoplay	: true,
-		bgincrement	: 0,
-		interval    : 8000
-	});
-
+    $('#da-slider').cslider({
+            autoplay: true,
+            bgincrement: 0,
+            interval: 8000
+        });
+    });
 });
 </script>
 <script>
