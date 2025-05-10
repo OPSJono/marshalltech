@@ -1,25 +1,25 @@
-(function($) { 
-		  
+(function($) {
+
 $(document).ready(function(){
-	$('.banner').prepend('<div class="patternOverlay"></div>');		
-	
-});	
-	
+	$('.banner').prepend('<div class="patternOverlay"></div>');
+
+});
+
 /*===========================================================*/
-	/*	Preloader 
-/*===========================================================*/	
+	/*	Preloader
+/*===========================================================*/
 //<![CDATA[
 	$(window).load(function() { // makes sure the whole site is loaded
 		$("#status").fadeOut(); // will first fade out the loading animation
 		$("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
 	})
 //]]>
-// for mobile nav js	
+// for mobile nav js
 $(window).load(function(){
 	$('button.navbar-toggle').click(function(){
 		$(this).toggleClass('active');
-		$('.navbar-collapse').slideToggle();										 
-	});					
+		$('.navbar-collapse').slideToggle();
+	});
 });
 // for banner height js
 var windowWidth = $(window).width();
@@ -38,11 +38,11 @@ $(window).load(function(){
             queue: false
         }
     });
- 
+
     $('.portfolioFilter a').click(function(){
         $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
- 
+
         var selector = $(this).attr('data-filter');
         $container.isotope({
             filter: selector,
@@ -53,7 +53,7 @@ $(window).load(function(){
             }
          });
          return false;
-    }); 
+    });
 
 
 
@@ -61,7 +61,7 @@ $(window).load(function(){
 jQuery(function() {
 	var $chosenSheet,
 	$stylesheets = $( "a[id^=theme-]" );
-	
+
 	// run rlightbox
 	$( ".lb" ).rlightbox();
 	$( ".lb_title-overwritten" ).rlightbox({overwriteTitle: true});
@@ -108,12 +108,12 @@ $(window).load(function(){
 		slideshow: false,
         itemWidth: 210,
         itemMargin: 5,
-        
+
       });
     });
 
 // Skill set
-$('.laravelskill').ClassyLoader({
+$('.phpskill').ClassyLoader({
 	speed: 50,
 	diameter: 65,
 	fontSize: '20px',
@@ -124,7 +124,7 @@ $('.laravelskill').ClassyLoader({
 	lineWidth: 15,
 	remainingLineColor: 'rgba(255,255,255,0.5)'
 });
-$('.photoshopskill').ClassyLoader({
+$('.awsskill').ClassyLoader({
 	speed: 50,
 	diameter: 65,
 	fontSize: '20px',
@@ -135,14 +135,14 @@ $('.photoshopskill').ClassyLoader({
 	lineWidth: 15,
 	remainingLineColor: 'rgba(255,255,255,0.5)'
 });
-$('.jqueryskill').ClassyLoader({
+$('.reactskill').ClassyLoader({
 	speed: 50,
 	diameter: 65,
 	fontSize: '20px',
 	fontFamily: 'Open Sans',
 	fontColor: 'rgba(255,255,255,1)',
 	lineColor: 'rgba(255,255,255,1)',
-	percentage: 90,
+	percentage: 85,
 	lineWidth: 15,
 	remainingLineColor: 'rgba(255,255,255,0.5)'
 });
@@ -153,7 +153,7 @@ $('.htmlcssskill').ClassyLoader({
 	fontFamily: 'Open Sans',
 	fontColor: 'rgba(255,255,255,1)',
 	lineColor: 'rgba(255,255,255,1)',
-	percentage: 85,
+	percentage: 95,
 	lineWidth: 15,
 	remainingLineColor: 'rgba(255,255,255,0.5)'
 });

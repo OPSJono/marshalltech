@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------------------
-	
+
 	1. CSS Reset
 	2. Document Setup
 	3. Header Part
@@ -11,8 +11,8 @@
 	7. Contact Style
 	8. Footer Style
 	9. Responsive style
-		
-		
+
+
 --------------------------------------------------------------------------------/*
 
 /*----------------------------------------------------
@@ -141,7 +141,7 @@ h4.subHeading{
 	padding-bottom:35px;
 	padding-right:50px;
 	margin-bottom:35px;
-	border-bottom:11px solid #ff554e;
+	border-bottom:11px solid #4a8cba;
 	display:inline-block;
 }
 .heading h2 span {
@@ -245,12 +245,12 @@ header{
 	z-index: 10;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 	font-weight: 700;
-	
+
 	text-align:center;
 	padding:0 50px;
 }
 .da-slide h2 span{
-	color:#ff554e;
+	color:#4a8cba;
 }
 .da-slide h3{
 	color: #fff;
@@ -263,7 +263,7 @@ header{
 	white-space: nowrap;
 	z-index: 10;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-	
+
 	text-align:center;
 	padding:0 50px;
 }
@@ -299,8 +299,8 @@ header{
     text-transform: uppercase;
 }
 .da-slide .da-link:hover{
-	color:#ff554e;
-	border-color:#ff554e;
+	color:#4a8cba;
+	border-color:#4a8cba;
 }
 .da-dots{
 	display:none;
@@ -973,12 +973,12 @@ header{
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
-	
+
 	background: transparent;
 }
 .isStuck{
-	background:#ff554e ;
-	
+	background:#4a8cba ;
+
 	-o-transition: all .5s;
     -ms-transition: all .5s;
     -moz-transition: all .5s;
@@ -1039,10 +1039,10 @@ header{
 	border-radius: 0;
 }
 .aboutus .btn-primary:hover {
-	background:#ff675f;
+	background:#366687;
 }
 .skillset {
-	background:#ff675f;
+	background:#366687;
 	display:table;
 	width:100%;
 }
@@ -1088,7 +1088,7 @@ header{
 	width:120px;
 	height:120px;
 	display:inline-block;
-	background-color:#ff554e;
+	background-color:#4a8cba;
 	text-align:center;
 	color:#fff;
 	-webkit-border-radius:50%;
@@ -1169,7 +1169,7 @@ header{
 	display:block;
 	text-decoration:none;
 	border-right:none;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -1178,7 +1178,7 @@ header{
 .portfolioFilter ul li a:hover{
 	border-color:#cfcfcf;
 	color:#fff;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -1223,20 +1223,20 @@ span.hoverBox{
 	position: absolute;
 	left:0px;
 	bottom: 0px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	background: rgba(0, 0, 0, 0.1);
-	
+
 }
 ul.portfolioContainer li:hover span.hoverBox{
 	visibility:visible;
 	left:0px;
 	bottom: 0px;
-	
+
 	background: rgba(0, 0, 0, 0.8);
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -1268,10 +1268,10 @@ span.hoverBox .zoom{
 	line-height:50px;
 	display: block;
 	float: left;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
@@ -1279,7 +1279,7 @@ ul.portfolioContainer li:hover span.hoverBox .zoom{
 	visibility:visible;
 	left:0;
 	padding-top:7px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -1297,10 +1297,10 @@ span.hoverBox .linKed{
 	line-height:52px;
 	display: block;
 	float: right;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
@@ -1308,7 +1308,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	visibility:visible;
 	right:0%;
 	padding-top:7px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -1336,7 +1336,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 .isotope .isotope-item {
 	padding:0;
-	
+
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
@@ -1369,7 +1369,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	margin-left: -26% !important;
 	padding: 0px !important;
 	height:80px !important;
-	
+
 	display: block;
 	background-color: rgba(24,27,34,1);
 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#B0000000, EndColorStr=#B0000000);
@@ -1412,7 +1412,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 .experdate {
 	width:114px;
 	height:114px;
-	background:#ff554e;
+	background:#4a8cba;
 	color:#fff;
 	padding-top:40px;
 	font-size:16px;
@@ -1427,7 +1427,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 ------------------------------------------------------*/
 
 .contact{
-	background:#ff675f;
+	background:#366687;
 }
 .contact .container{
 	padding-top:116px;
@@ -1527,7 +1527,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 
 .conForm .submitBnt{
-	background:#ff554e;
+	background:#4a8cba;
 	font-family: 'Montserrat', sans-serif;
 	color:#fff;
 	font-size:16px;
@@ -1552,7 +1552,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	font-weight: 500;
 }
 .error_message{
-	color: #ff675f;
+	color: #366687;
 	padding-bottom: 15px;
 	font-weight: 500;
 }
@@ -1596,7 +1596,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	line-height:145px;
 	width:150px;
 	height:150px;
-	
+
 	-webkit-border-radius: 50%;
     border-radius: 50%;
 }
@@ -1611,7 +1611,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	text-decoration:none;
 }
 .cinfoBox p a:hover{
-	color:#ff554e;
+	color:#4a8cba;
 }
 
 /*----------------------------------------------------
@@ -1639,7 +1639,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	margin:0 30px 14px;
 	width:85px !important;
 	height:85px !important;
-	
+
 	-webkit-border-radius: 50%;
     border-radius: 50%;
 }
@@ -1717,7 +1717,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		height:140px;
 		padding-top:50px;
 	}
-	
+
 	.education .workYear{
 		padding-top:58px;
 	}
@@ -1736,7 +1736,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.proPic{
 		text-align:center;
 	}
-	
+
 	.navbar-inverse .navbar-toggle .icon-bar{
 		background:#000;
 	}
@@ -1759,14 +1759,14 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	#header h3 span{
 		font-size: 16px;
 	}
-	
+
 	.abc{
 		width:100%;
 	}
 	.navArea {
 		float:none;
 	}
-	
+
 	.navbar-nav{
 		position: absolute;
 		width: 100%;
@@ -1781,7 +1781,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.navbar.navbar-inverse.navbar-static-top a:hover{
 		background:none;
 	}
-	
+
 	.navbar-nav > li{
 		float:none;
 		display:block;
@@ -1793,7 +1793,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.navbar-nav > li> a:hover{
 		background:#000 !important;
 	}
-	
+
 	.da-slide h2,
 	.da-slide h3,
 	.da-slide p {
@@ -1805,7 +1805,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.da-slide h3 {
 		font-size:40px;
 	}
-	
+
 	.skillset {
 		display:block;
 	}
@@ -1815,7 +1815,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	}
 
 
-	
+
 }
 
 
@@ -1837,7 +1837,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	ul.portfolioContainer li.col-xs-6{
 		width:49%;
 		min-height: 85px;
-		
+
 	}
 	.navbar-toggle {
 		margin-top: 23px;
@@ -1852,7 +1852,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		float:right;
 	}
 
-	
+
 }
 
 
@@ -1910,7 +1910,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 
 @media screen and (max-width: 650px) {
-	
+
 	#wrapper{
 		top: 200px !important;
 	}
@@ -1925,7 +1925,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		display:block;
 		border-bottom-width:2px;
 	}
-	
+
 	.bannerText {
 		padding-top:15px;
 		padding-bottom:15px;
@@ -1956,7 +1956,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		padding:0;
 		border:none;
 	}
-	
+
 	.da-slide h2,
 	.da-slide h3,
 	.da-slide p {
@@ -1971,8 +1971,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.da-slide p {
 		font-size:14px;
 	}
-	
-	
+
+
 }
 
 
@@ -1999,27 +1999,27 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		min-height: 600px;
 		height: 100%;
 	}
-	
+
 	.item{
 		width: 19%;
 	}
 	.item p {
 		font-size: 36px;
 	}
-	
+
 	.ourservice img{
 		width:100%;
 	}
-	
+
 	ul.portfolioContainer li.col-xs-6{
 		width:100%;
 	}
-	
+
 	.bntDownload{
 		font-size: 13px;
 		padding: 16px 14px;
 	}
-	
+
 	.conForm textarea{
 		margin-bottom:20px;
 	}
@@ -2027,13 +2027,13 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		display:block;
 		padding:0 0 40px 0;
 	}
-	
+
 	.nameError,
 	.emailError{
 		left:0px;
-		top:0px;		
+		top:0px;
 	}
-	
+
 	.da-slide h2 {
 		font-size:25px;
 		line-height:normal;
@@ -2042,6 +2042,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		font-size:18px;
 		line-height:normal;
 	}
-	
-	
+
+
 }
